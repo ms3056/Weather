@@ -1,0 +1,114 @@
+/* refresh button */
+.weather-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weather-refresh-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 50px;
+    opacity: var(--icon-opacity, 0.3);
+    transition: opacity 0.3s ease;
+    --icon-size: 20px;
+    --icon-opacity: 0.4;
+    cursor: pointer;
+}
+
+.weather-refresh-button:hover {
+    --icon-opacity: 1
+}
+
+/* Umbrella Icon */
+
+.weather-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style for the umbrella icon */
+.weather-umbrella-icon {
+  color: rgb(99, 196, 228);
+}
+
+  /* Styles for the hot icon */
+.weather-temperature-icon.hot-icon {
+  color: orange
+}
+
+  /* Styles for the cold icon */
+.weather-temperature-icon.flame-icon {
+  color: red;
+  --icon-size: 30px;
+}
+
+  /* Styles for the cold icon */
+.weather-temperature-icon.cold-icon {
+  color: lightskyblue;
+}
+
+
+.weather-humidity-icon {
+  color: lightskyblue;
+}
+
+
+/* Location Name */
+.location-name {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    margin-bottom: -20px;
+}
+
+/* Feels-Like Temp */
+.feels-like {
+    color: var(--color-accent);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Humidity */
+.humidity {
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+/* Condition Text */
+.condition-text {
+    color: var(--color-accent);
+    font-size: 1.2em;
+    /* margin-top: -20px; */
+    align-content: center;
+}
+
+/* Update Time */
+.update-time {
+    color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 0.7em;
+    text-align: right;
+}
+
+@keyframes blink {
+    0% {
+        background-color: inherit;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: inherit;
+    }
+}
+
+.flash-animation {
+    animation: blink 1s;
+}
