@@ -1,23 +1,22 @@
-# Weather Plugin
+# Weather
 
-This is a weather plugin for Obsidian (https://obsidian.md).
+This is a weather display for Obsidian (https://obsidian.md).
+
+
+
+
 
 
 ## Manually installing the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
-- Alternatively you can use the BRAT plugin
+- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/Weather/`.
+
+## Usage
 
 
 ## Coffee
 
-If you would like to buy me a coffee this is a way to do that. 
-
-```json
-{
-    "fundingUrl": "https://buymeacoffee.com/mstam30561"
-}
-```
+<a href="https://www.buymeacoffee.com/mstam30561" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Help and Support
 

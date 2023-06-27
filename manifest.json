@@ -1,11 +1,12 @@
 {
-	"id": "obsidian-sample-plugin",
-	"name": "Weather Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "This is a weather plugin for Obsidian",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
-}
+    "id": "weather",
+    "name": "Weather",
+    "version": "0.1.0",
+    "minAppVersion": "0.16.3",
+    "description": "Display the weather.",
+    "author": "HiroMike",
+    "authorUrl": "",
+    "isDesktopOnly": false,
+    "donation": "",
+    "fundingUrl": "https://buymeacoffee.com/mstam30561"
+  }
